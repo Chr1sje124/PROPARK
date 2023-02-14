@@ -49,14 +49,14 @@ ul li:hover>ul {
 }
 
 iframe {
-  margin-top: 1em;
+
   float: right;
 }
 
 div.homepage {
-  background-color: lightgrey;
+  background-color: #C2DED1;
   width: 300px;
-  border: 15px solid green;
+  border: 5px solid #395B64;
   padding: 50px;
   margin-top: 10em;
 
