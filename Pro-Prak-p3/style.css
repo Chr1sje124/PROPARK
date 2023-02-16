@@ -43,3 +43,8 @@
   padding: 0px 20px;
   text-decoration: none;
 }
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+}
