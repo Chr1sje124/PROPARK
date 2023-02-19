@@ -1,4 +1,23 @@
 {
+  "name": "pro-prak-p3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w scss:css",
+    "minify": "sass -w scss:css --style=compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chr1sje124/PROPARK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chr1sje124/PROPARK/issues"
+  },
+  "homepage": "https://github.com/Chr1sje124/PROPARK#readme",
   "devDependencies": {
     "sass": "^1.58.3"
   }
