@@ -5,7 +5,7 @@
             <li>
                 <img src="img/email.png" alt="email" height="25" width="25"> <a href="mailto:jmx@mboutrecht.nl">jmx@mboutrecht.nl</a>
             </li>
-            <li>Telefoon: 123456789</li>
+            <li> <img src="img/telephone.png" alt="telefoon" height="25" width="25"> +31 6 12345678</li>
         </ul>
 
     </div>
