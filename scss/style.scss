@@ -1,9 +1,4 @@
-*,
-*:before,
-*:after {
-    box-sizing: border-box;
-}
-
+// Homepagina 
 h1 {}
 
 html {
@@ -17,6 +12,9 @@ body {
     line-height: 1.5;
 }
 
+//Homepagina end
+
+//Navbar 
 header {
     display: flex;
     justify-content: flex-end;
@@ -66,8 +64,9 @@ header {
 .nav__links li:hover>ul {
     display: flex;
 }
+//Navbar end
 
-
+//Footer 
 footer {
     display: flex;
     flex-direction: column;
@@ -92,6 +91,9 @@ footer {
     }
 }
 
+//Footer end
+
+//Website size
 @media (min-width: 768px) {
     footer {
         flex-direction: row;
@@ -132,3 +134,5 @@ img {
         max-width: 1280px;
     }
 }
+
+//Website size end
