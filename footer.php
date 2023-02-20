@@ -20,7 +20,7 @@
     </div>
 
     <div>
-        <h3>Meer Links</h3>
+        <h3>Nog Links</h3>
         <ul>
             <li><a href="geschiedenis.php">Geschiedenis</a></li>
             <li><a href="symptomen.php">Symptomen</a></li>
