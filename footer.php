@@ -3,7 +3,7 @@
         <h3>Contact</h3>
         <ul>
             <li>
-                <img src="img/email.png" alt="email" height="25" width="25"> <a href="mailto:jmx@mboutrecht.nl">jmx@mboutrecht.nl</a>
+                <img src="img/email.png" alt="email" height="25" width="25"> <a href="">dfkshgsdhgjj@gmail.com</a>
             </li>
             <li> <img src="img/telephone.png" alt="telefoon" height="25" width="25"> +31 6 12345678</li>
         </ul>

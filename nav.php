@@ -5,9 +5,9 @@
                     <li><a href="index.php">Home</a></li>
                     <li><a href="informatie.php">Informatie</a>
                         <ul class="nav__meerlinks">
-                            <li><a href="#">Geschiedenis</a></li>
-                            <li><a href="#">Symptomen</a></li>
-                            <li><a href="#">Behandeling</a></li>
+                            <li><a href="geschiedenis.php">Geschiedenis</a></li>
+                            <li><a href="symptomen.php">Symptomen</a></li>
+                            <li><a href="behandeling.php">Behandeling</a></li>
                         </ul>
                     </li>
                     <li><a href="quiz.php">Quiz</a></li>
