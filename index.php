@@ -15,7 +15,8 @@
   <?php include "nav.php"; ?>
 
   <div class="container">
-    <h1>AdHd</h1>
+    <h1>Welkom!</h1>
+    <h2>Wat is AdHd</h2>
     <iframe width="885" height="498" src="https://www.youtube.com/embed/_cEYVpsSTuE" title="Wat is ADHD?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 
