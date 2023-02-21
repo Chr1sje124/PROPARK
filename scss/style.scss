@@ -130,3 +130,37 @@ img {
         max-width: 1280px;
     }
 }
+
+//Geschiedenis style
+.Geschiedenis {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .content {
+
+      margin: 10rem 0 10rem 0;
+      position: relative;
+      gap: 5rem;
+      padding: 0 5%;
+      p {
+        font-size: 2rem;
+        max-width: 50%;
+      }
+      img {
+        height: 30rem;
+        // float: right; 
+        top: 8px;
+        right: 16px;
+        position: absolute;
+        margin: 2rem;
+      }
+      span {
+        position: absolute;
+        // left: 0;
+        bottom: 100%;
+        font-size: 5rem;
+      }
+    }
+  }
+
+  // Geschiedenis style  end
