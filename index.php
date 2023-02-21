@@ -12,12 +12,20 @@
 </head>
 
 <body>
-  <?php include "nav.php"; ?>
+  <?php include "nav.php"?>
+
+  <h1>Wat is Adhd?</h1>
+
+  <div class="quizdiv">
+    <h2>Doe hier nu een zelftest!
+
+      <div class = "button"> <button class="button-19" role="button">Quiz</button>
+</div>
+    </h2>
+  </div>
 
   <div class="container">
-    <h1>Welkom!</h1>
-    <h2>Wat is AdHd</h2>
-    <iframe width="885" height="498" src="https://www.youtube.com/embed/_cEYVpsSTuE" title="Wat is ADHD?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="640" height="390" src="https://www.youtube.com/embed/_cEYVpsSTuE" title="Wat is ADHD?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 
   <?php include "footer.php" ?>
