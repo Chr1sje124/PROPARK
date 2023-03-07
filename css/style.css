@@ -210,5 +210,61 @@ img {
     max-width: 1280px;
   }
 }
+.Geschiedenis {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.Geschiedenis .content {
+  margin: 10rem 0 10rem 0;
+  position: relative;
+  gap: 5rem;
+  padding: 0 5%;
+}
+.Geschiedenis .content p {
+  font-size: 2rem;
+  max-width: 50%;
+}
+.Geschiedenis .content img {
+  height: 30rem;
+  top: 8px;
+  right: 16px;
+  position: absolute;
+  margin: 2rem;
+}
+.Geschiedenis .content span {
+  position: absolute;
+  bottom: 100%;
+  font-size: 5rem;
+}
+
+.Syptomen {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.Syptomen .note {
+  margin: 10rem 0 10rem 0;
+  position: relative;
+  gap: 5rem;
+  padding: 0 5%;
+}
+.Syptomen .note p {
+  font-size: 1.5rem;
+  max-width: 50%;
+}
+.Syptomen .note img {
+  height: 30rem;
+  top: 8px;
+  right: 10px;
+  position: absolute;
+  margin: 1rem;
+  width: 40%;
+}
+.Syptomen .note span {
+  position: absolute;
+  bottom: 100%;
+  font-size: 5rem;
+}
 
 /*# sourceMappingURL=style.css.map */

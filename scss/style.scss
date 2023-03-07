@@ -1,8 +1,10 @@
 // Homepagina 
+
 h1 {
     padding-left: 1rem;
     font-size: 50px;
 }
+
 
 html {
     font-size: 18px;
@@ -236,4 +238,72 @@ img {
     }
 }
 
+ 
+//Geschiedenis style
+.Geschiedenis {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .content {
+
+      margin: 10rem 0 10rem 0;
+      position: relative;
+      gap: 5rem;
+      padding: 0 5%;
+      p {
+        font-size: 2rem;
+        max-width: 50%;
+      }
+      img {
+        height: 30rem;
+        // float: right; 
+        top: 8px;
+        right: 16px;
+        position: absolute;
+        margin: 2rem;
+      }
+      span {
+        position: absolute;
+        bottom: 100%;
+        font-size: 5rem;
+      }
+    }
+  }
+
+  // Geschiedenis style  end
+
 //Website size end
+
+
+
+//syptomern style
+.Syptomen {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    .note {
+
+      margin: 10rem 0 10rem 0;
+      position: relative;
+      gap: 5rem;
+      padding: 0 5%;
+      p {
+        font-size: 1.5rem;
+        max-width: 50%;
+      }
+      img {
+        height: 30rem;
+        top: 8px;
+        right: 10px;
+        position: absolute;
+        margin: 1rem;
+        width: 40%;
+      }
+      span {
+        position: absolute;
+        bottom: 100%;
+        font-size: 5rem;
+      }
+    }
+  }
+//syptomern end
