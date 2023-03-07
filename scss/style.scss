@@ -1,6 +1,6 @@
 // Homepagina 
 h1 {
-    padding-left: 5rem;
+    padding-left: 1rem;
     font-size: 50px;
 }
 
@@ -19,23 +19,36 @@ body {
     display: inline;
     float: left;
     border: solid;
+    border-color: #395B64;
+    border-width: 10px;
     margin-left: 5%;
-    margin-top: 10%;
-    width: 550px;
-    height: 200px;
+    width: 630px;
+    height: 370px;
 
     h2 {
-        margin-left: 5em;
+        margin-left: 2.5em;
+        font-size: 39px;
     }
 
+    p {
+        font-size: 30px;
+        margin-left: 1rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.uitleg {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 
 }
 
 .button {
     padding-right: 9em;
-    margin-left: 3em;
+    margin-left: 9em;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 0em;
 
     .button-19 {
         appearance: button;
@@ -55,7 +68,7 @@ body {
         margin: 0;
         outline: none;
         overflow: visible;
-        padding: 13px 16px;
+        padding: 43px 16px;
         text-align: center;
         text-transform: uppercase;
         touch-action: manipulation;
@@ -166,14 +179,16 @@ footer {
     a {
         color: #fff;
         text-decoration: none;
+        margin-right: 4em;
     }
 
     h3 {
         margin: 0;
+        margin-left: 1rem;
     }
 
     >div>ul {
-        padding-left: 1rem;
+        padding-left: 1em;
         list-style: none;
     }
 }
