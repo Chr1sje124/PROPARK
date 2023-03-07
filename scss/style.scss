@@ -115,6 +115,34 @@ body {
 
 //Homepagina end
 
+// behandeling
+.behandeling {
+    p {
+        margin-left: 15px;
+    }
+
+    h1 {
+        margin-left: 5px;
+    }
+
+    h3 {
+        margin-left: 10px;
+    }
+
+    .text {
+        width: 60%;
+    }
+}
+
+// behandeling eind
+
+.image {
+    width: auto;
+    margin-left: 60rem;
+    position: absolute;
+    top: 15rem;
+}
+
 //Navbar 
 header {
     display: flex;
@@ -238,39 +266,43 @@ img {
     }
 }
 
- 
+
 //Geschiedenis style
 .Geschiedenis {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+
     .content {
 
-      margin: 10rem 0 10rem 0;
-      position: relative;
-      gap: 5rem;
-      padding: 0 5%;
-      p {
-        font-size: 2rem;
-        max-width: 50%;
-      }
-      img {
-        height: 30rem;
-        // float: right; 
-        top: 8px;
-        right: 16px;
-        position: absolute;
-        margin: 2rem;
-      }
-      span {
-        position: absolute;
-        bottom: 100%;
-        font-size: 5rem;
-      }
-    }
-  }
+        margin: 10rem 0 10rem 0;
+        position: relative;
+        gap: 5rem;
+        padding: 0 5%;
 
-  // Geschiedenis style  end
+        p {
+            font-size: 2rem;
+            max-width: 50%;
+        }
+
+        img {
+            height: 30rem;
+            // float: right; 
+            top: 8px;
+            right: 16px;
+            position: absolute;
+            margin: 2rem;
+        }
+
+        span {
+            position: absolute;
+            bottom: 100%;
+            font-size: 5rem;
+        }
+    }
+}
+
+// Geschiedenis style  end
 
 //Website size end
 
@@ -281,29 +313,35 @@ img {
     display: flex;
     flex-direction: column;
     gap: 4rem;
+
     .note {
 
-      margin: 10rem 0 10rem 0;
-      position: relative;
-      gap: 5rem;
-      padding: 0 5%;
-      p {
-        font-size: 1.5rem;
-        max-width: 50%;
-      }
-      img {
-        height: 30rem;
-        top: 8px;
-        right: 10px;
-        position: absolute;
-        margin: 1rem;
-        width: 40%;
-      }
-      span {
-        position: absolute;
-        bottom: 100%;
-        font-size: 5rem;
-      }
+        margin: 10rem 0 10rem 0;
+        position: relative;
+        gap: 5rem;
+        padding: 0 5%;
+
+        p {
+            font-size: 1.5rem;
+            max-width: 50%;
+        }
+
+        img {
+            height: 30rem;
+            top: 8px;
+            right: 10px;
+            position: absolute;
+            margin: 1rem;
+            width: 40%;
+        }
+
+        span {
+            position: absolute;
+            bottom: 100%;
+            font-size: 5rem;
+        }
     }
-  }
+}
+
 //syptomern end
+//Homepagina end

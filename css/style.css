@@ -102,6 +102,26 @@ body {
   cursor: auto;
 }
 
+.behandeling p {
+  margin-left: 15px;
+}
+.behandeling h1 {
+  margin-left: 5px;
+}
+.behandeling h3 {
+  margin-left: 10px;
+}
+.behandeling .text {
+  width: 60%;
+}
+
+.image {
+  width: auto;
+  margin-left: 60rem;
+  position: absolute;
+  top: 15rem;
+}
+
 header {
   display: flex;
   justify-content: flex-end;
