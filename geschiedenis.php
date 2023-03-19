@@ -13,9 +13,21 @@
 <body>
   <?php include "nav.php" ?>
 
+    <div class="Geschiedenis"> 
+      <div class="content">
+
+<p> <span>Geschiedenis</span> De eerste beschrijving van ADHD werd al in 1902 gedaan door de Engelse kinderarts George Still.
+    De term ADD werd in 1980 voor het eerst opgenomen in het handboek dat gebruikt wordt voor de diagnose van psychische stoornissen (de DSM). Bij een wijziging in 1987 werd de naam ADD weer aangepast naar ADHD.</p>
+
+<img src="./img/ADHD-2.jpg" alt="">
+
+
+        </div>
+      </div>
 
   <?php include "footer.php" ?>
 
+  
 </body>
 
 </html>

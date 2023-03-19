@@ -1,5 +1,10 @@
 // Homepagina 
-h1 {}
+
+h1 {
+    padding-left: 1rem;
+    font-size: 50px;
+}
+
 
 html {
     font-size: 18px;
@@ -12,7 +17,131 @@ body {
     line-height: 1.5;
 }
 
+.quizdiv {
+    display: inline;
+    float: left;
+    border: solid;
+    border-color: #395B64;
+    border-width: 10px;
+    margin-left: 5%;
+    width: 630px;
+    height: 370px;
+
+    h2 {
+        margin-left: 2.5em;
+        font-size: 39px;
+    }
+
+    p {
+        font-size: 30px;
+        margin-left: 1rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+.uitleg {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.button {
+    padding-right: 9em;
+    margin-left: 9em;
+    justify-content: center;
+    margin-top: 0em;
+
+    .button-19 {
+        appearance: button;
+        background-color: #1899D6;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: din-round, sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 20px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 43px 16px;
+        text-align: center;
+        text-transform: uppercase;
+        touch-action: manipulation;
+        transform: translateZ(0);
+        transition: filter .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+    .button-19:after {
+        background-clip: padding-box;
+        background-color: #1CB0F6;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        bottom: -4px;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+
+    .button-19:main,
+    .button-19:focus {
+        user-select: auto;
+    }
+
+    .button-19:hover:not(:disabled) {
+        filter: brightness(1.1);
+        -webkit-filter: brightness(1.1);
+    }
+
+    .button-19:disabled {
+        cursor: auto;
+    }
+}
+
 //Homepagina end
+
+// behandeling
+.behandeling {
+    p {
+        margin-left: 15px;
+    }
+
+    h1 {
+        margin-left: 5px;
+    }
+
+    h3 {
+        margin-left: 10px;
+    }
+
+    .text {
+        width: 60%;
+    }
+}
+
+// behandeling eind
+
+.image {
+    width: auto;
+    margin-left: 60rem;
+    position: absolute;
+    top: 15rem;
+}
 
 //Navbar 
 header {
@@ -80,14 +209,16 @@ footer {
     a {
         color: #fff;
         text-decoration: none;
+        margin-right: 4em;
     }
 
     h3 {
         margin: 0;
+        margin-left: 1rem;
     }
 
     >div>ul {
-        padding-left: 1rem;
+        padding-left: 1em;
         list-style: none;
     }
 
@@ -111,10 +242,9 @@ img {
 }
 
 .container {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    margin-left: 10%;
+    padding-left: 40%;
+    margin-top: 0;
 }
 
 @media (min-width: 640px) {
@@ -141,4 +271,92 @@ img {
     }
 }
 
+
+//Geschiedenis style
+.Geschiedenis {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    .content {
+
+        margin: 10rem 0 10rem 0;
+        position: relative;
+        gap: 5rem;
+        padding: 0 5%;
+
+        p {
+            font-size: 2rem;
+            max-width: 50%;
+        }
+
+        img {
+            height: 30rem;
+            // float: right; 
+            top: 8px;
+            right: 16px;
+            position: absolute;
+            margin: 2rem;
+        }
+
+        span {
+            position: absolute;
+            bottom: 100%;
+            font-size: 5rem;
+        }
+    }
+}
+
+// Geschiedenis style  end
+
 //Website size end
+
+
+
+//syptomern style
+.Syptomen {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    .note {
+
+        margin: 10rem 0 10rem 0;
+        position: relative;
+        gap: 5rem;
+        padding: 0 5%;
+
+        p {
+            font-size: 1.5rem;
+            max-width: 50%;
+        }
+
+        img {
+            height: 30rem;
+            top: 8px;
+            right: 10px;
+            position: absolute;
+            margin: 1rem;
+            width: 40%;
+        }
+
+        span {
+            position: absolute;
+            bottom: 100%;
+            font-size: 5rem;
+        }
+    }
+}
+
+//syptomern end
+
+.info {}
+
+.fto {
+    display: flex;
+    justify-content: center;
+    max-height: 30rem;
+    margin-top: 5rem;
+}
+
+//Homepagina end
