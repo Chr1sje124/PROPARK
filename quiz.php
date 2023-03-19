@@ -1,31 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Document</title>
 </head>
-
 <body>
-  <?php include "nav.php" ?>
+<?php
+// Definieer de vragen en antwoorden
+$questions = array(
+	"question1" => "a",
+	"question2" => "a",
+	"question3" => "a",
+	"question4" => "a",
+	"question5" => "a",
+	"question6" => "a",
+	"question7" => "a",
+	"question8" => "a",
+	"question9" => "a",
+	"question10" => "a"
+);
 
-  <h1 id="quizquestion">Welkom bij de quiz!</h1>
+$score = 0;
 
-  <button id="startquizbtn" onclick="startQuiz()">Start de quiz!</button>
+// Verwerk de antwoorden en bereken de score
+foreach ($questions as $question => $answer) {
+	if (isset($_POST[$question]) && $_POST[$question] == $answer) {
+		$score += 5;
+	}
+}
 
-  <?php include "footer.php" ?>
+// Sla de score op in de database
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "adhdquiz";
 
-  <?php
-  
-  function startQuiz() {
-    
-  }
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-  ?>
+if ($conn->connect_error) {
+	die("Connection failed: " . $conn->connect_error);
+}
+
+$sql = "INSERT INTO scores (score) VALUES ('$score')";
+
+if ($conn->query($sql) === FALSE) {
+	echo "Error: " . $sql . "<br>" . $conn->error;
+}
+
+$conn->close();
+
+// if (isset($_POST["email"])) {
+// 	$email = $_POST["email"];
+// }
+
+// // Stuur de score via e-mail, als de gebruiker dat wil
+// if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+// 	echo "Het opgegeven e-mailadres is ongeldig.";
+//   } else {
+// 	$subject = "ADHD Quiz Score";
+// 	$message = "Je score voor de ADHD Quiz is: $score";
+
+// 	mail($email, $subject, $message);
+// }
+
+// Toon de score aan de gebruiker
+include "nav.php";
+echo "<h1>Uw score is: " . $score . "</h1>";
+include "footer.php";
+?>
 </body>
-
 </html>

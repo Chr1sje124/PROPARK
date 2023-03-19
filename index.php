@@ -12,11 +12,7 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-  <?php include "nav.php" ?>
-=======
   <?php include "nav.php"?>
->>>>>>> 728b726ad44742feea3ac16e8e173b0ceaf3fff2
 
   <h1>Wat is Adhd?</h1>
   <div class="uitleg"><p>ADHD staat voor Attention Deficit Hyperactivity Disorder. In het Nederlands spreken we van een hyperactiviteitstoornis of aandachtstekortstoornis.
@@ -28,7 +24,7 @@
   </div>
   <div class="quizdiv">
     <p>Wilt je testen of je ziekte van ADHD heeft?</p>
-    <div class = "button"> <button class="button-19" role="button">Quiz</button></div>
+    <div class = "button"> <a class="button-19" role="button" href="quizpagina.php">Quiz</a></div>
     <h2>Doe hier nu een zelftest!</h2>
   </div>
 

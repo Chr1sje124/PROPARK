@@ -11,12 +11,8 @@
 </head>
 
 <body>
-<<<<<<< HEAD
   <?php include "nav.php" ?>
 
-
-=======
-  <?php include "nav.php"; ?>
   <div class="behandeling">
   <h1>Behandeling</h1>
   <h3>ADHD behandeling</h3><p class="text">Een ADHD behandeling bestaat uit verschillende delen: psycho-educatie, ADHD medicatie, coaching en psychotherapie. Indien je naast ADHD ook last hebt van bijvoorbeeld een angst- of stemmingsstoornis, dan krijg je een aangepaste behandeling. In het geval van ADHD behandeling bij kinderen ontvangen ook de ouders hulp.</p>
@@ -28,7 +24,6 @@
   Kinderen kunnen de symptomen van ADHD niet of maar zeer beperkt afleren. Een psychosociale behandeling bij kinderen zal zich daarom enerzijds vooral richten op het aanbrengen van (meer) structuur in de omgeving, via het inschakelen van jou als ouder en de betrokken leerkrachten. Anderzijds zullen kinderen aan de slag gaan met het leren van vaardigheden die helpen om beter te leren omgaan met hun eigen gedrag.</p>
   </div>
   <img src="./img/AdHd.jfif" alt="" class="image">
->>>>>>> 728b726ad44742feea3ac16e8e173b0ceaf3fff2
   <?php include "footer.php" ?>
 
 </body>
