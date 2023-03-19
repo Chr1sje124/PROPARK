@@ -11,11 +11,21 @@
 </head>
 
 <body>
-  <?php include "nav.php"; ?>
+  <?php include "nav.php" ?>
 
+  <h1 id="quizquestion">Welkom bij de quiz!</h1>
+
+  <button id="startquizbtn" onclick="startQuiz()">Start de quiz!</button>
 
   <?php include "footer.php" ?>
 
+  <?php
+  
+  function startQuiz() {
+    
+  }
+
+  ?>
 </body>
 
 </html>

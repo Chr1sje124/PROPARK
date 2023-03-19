@@ -79,6 +79,10 @@ footer > div > ul {
   padding-left: 1rem;
   list-style: none;
 }
+footer img {
+  position: relative;
+  top: 5px;
+}
 
 @media (min-width: 768px) {
   footer {
