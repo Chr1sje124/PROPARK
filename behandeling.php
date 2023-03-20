@@ -11,7 +11,8 @@
 </head>
 
 <body>
-  <?php include "nav.php"; ?>
+  <?php include "nav.php" ?>
+
   <div class="behandeling">
   <h1>Behandeling</h1>
   <h3>ADHD behandeling</h3><p class="text">Een ADHD behandeling bestaat uit verschillende delen: psycho-educatie, ADHD medicatie, coaching en psychotherapie. Indien je naast ADHD ook last hebt van bijvoorbeeld een angst- of stemmingsstoornis, dan krijg je een aangepaste behandeling. In het geval van ADHD behandeling bij kinderen ontvangen ook de ouders hulp.</p>

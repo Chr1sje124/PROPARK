@@ -24,7 +24,7 @@
   </div>
   <div class="quizdiv">
     <p>Wilt je testen of je ziekte van ADHD heeft?</p>
-    <div class = "button"> <button class="button-19" role="button">Quiz</button></div>
+    <div class = "button"> <a class="button-19" role="button" href="quizpagina.php">Quiz</a></div>
     <h2>Doe hier nu een zelftest!</h2>
   </div>
 

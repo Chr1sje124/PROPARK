@@ -15,7 +15,7 @@
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="informatie.php">Informatie</a></li>
-            <li><a href="quiz.php">Quiz</a></li>
+            <li><a href="quizpagina.php">Quiz</a></li>
             <li><a href="geschiedenis.php">Geschiedenis</a></li>
             <li><a href="symptomen.php">Symptomen</a></li>
             <li><a href="behandeling.php">Behandeling</a></li>

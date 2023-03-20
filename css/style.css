@@ -14,8 +14,14 @@ body {
   line-height: 1.5;
 }
 
+.uitleg {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+
 .quizdiv {
-  display: inline;
+  display: inline-block;
   float: left;
   border: solid;
   border-color: #395B64;
@@ -24,29 +30,24 @@ body {
   width: 630px;
   height: 370px;
 }
+
 .quizdiv h2 {
   margin-left: 2.5em;
   font-size: 39px;
 }
+
 .quizdiv p {
   font-size: 30px;
   margin-left: 1rem;
   margin-bottom: 2.5rem;
 }
 
-.uitleg {
-  font-size: 20px;
-  padding: 10px;
-  margin: 10px;
-}
-
 .button {
-  padding-right: 9em;
-  margin-left: 9em;
-  justify-content: center;
+  display: inline-block;
   margin-top: 0em;
 }
-.button .button-19 {
+
+.button-19 {
   appearance: button;
   background-color: #1899D6;
   border: solid transparent;
@@ -66,40 +67,6 @@ body {
   overflow: visible;
   padding: 43px 16px;
   text-align: center;
-  text-transform: uppercase;
-  touch-action: manipulation;
-  transform: translateZ(0);
-  transition: filter 0.2s;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
-  width: 100%;
-}
-.button .button-19:after {
-  background-clip: padding-box;
-  background-color: #1CB0F6;
-  border: solid transparent;
-  border-radius: 16px;
-  border-width: 0 0 4px;
-  bottom: -4px;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: -1;
-}
-.button .button-19:main,
-.button .button-19:focus {
-  user-select: auto;
-}
-.button .button-19:hover:not(:disabled) {
-  filter: brightness(1.1);
-  -webkit-filter: brightness(1.1);
-}
-.button .button-19:disabled {
-  cursor: auto;
 }
 
 .behandeling p {
@@ -194,29 +161,67 @@ footer > div > ul {
   padding-left: 1em;
   list-style: none;
 }
+footer img {
+  position: relative;
+  top: 5px;
+}
 
-@media (max-width: 768px) {
-  footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #395B64;
-    color: #fff;
+@media only screen and (max-width: 767px) {
+  /*mobile */
+  html {
+    font-size: 16px;
   }
-  footer a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 4em;
+  h1 {
+    font-size: 36px;
   }
-  footer h3 {
+  .uitleg {
+    font-size: 16px;
+  }
+  .quizdiv {
     margin: 0;
-    margin-left: 1rem;
+    width: 100%;
+    height: auto;
   }
-  footer > div > ul {
-    padding-left: 1em;
-    list-style: none;
+  .button {
+    padding-right: 2em;
+    margin-left: 2em;
+  }
+  .button-19 {
+    font-size: 13px;
+    padding: 20px 10px;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Tablet */
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  .uitleg {
+    font-size: 18px;
+  }
+  .quizdiv {
+    margin-left: 2%;
+    width: 45%;
+    height: auto;
+  }
+  .button {
+    padding-right: 6em;
+    margin-left: 6em;
+  }
+  .button-19 {
+    font-size: 16px;
+    padding: 30px 20px;
+  }
+  iframe {
+    width: 100%;
+    height: 400px;
   }
 }
 .Geschiedenis {

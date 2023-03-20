@@ -11,9 +11,7 @@
 </head>
 
 <body>
-  <?php include "nav.php"; ?>
-<div class="Syptomen">
-  <div class="note">
+  <?php include "nav.php" ?>
 
 
 <p> <span>Syptomen</span> Je hoeft niet alle kenmerken te herkennen om de diagnose ADHD te krijgen. De kenmerken van ADHD zijn te verdelen in 3 gebieden: aandachtsproblemen, hyperactiviteit en impulsiviteit. Onder aandachtsproblemen verstaan we problemen met de concentratie en het kunnen organiseren. Veel ADHD'ers zijn snel afgeleid , hebben moeite met luisteren en zijn chaotisch. Het afmaken van opdrachten, het scheiden van hoofd- en bijzaak, plannen, organiseren en het doen van administratieve taken is dan ook vaak een uitdaging. Ook hyperactiviteit is een veelvoorkomend kenmerk van ADHD. Het laatste gebied is impulsiviteit. Mensen met ADHD doen eerst voor ze nadenken over de gevolgen</p>
