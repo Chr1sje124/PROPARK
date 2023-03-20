@@ -8,7 +8,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" />
-  <script src="js/font.js"></script>
 </head>
 
 <body>
@@ -24,7 +23,7 @@
   </div>
   <div class="quizdiv">
     <p>Wilt je testen of je ziekte van ADHD heeft?</p>
-    <div class = "button"> <a class="button-19" role="button" href="quizpagina.php">Quiz</a></div>
+    <div class="button"> <a class="button-19" role="button" href="quizpagina.php">Quiz</a></div>
     <h2>Doe hier nu een zelftest!</h2>
   </div>
 
@@ -32,8 +31,6 @@
 
   
   <?php include "footer.php" ?>
-
-  <script src="js/nav.js"></script>
 </body>
 
 </html>

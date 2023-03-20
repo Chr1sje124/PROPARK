@@ -34,8 +34,8 @@ foreach ($questions as $question => $answer) {
 
 // Sla de score op in de database / Verbinden met de database.
 $servername = "localhost";
-$username = "bit_academy";
-$password = "bit_academy";
+$username = "root";
+$password = "";
 $dbname = "adhdquiz";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
