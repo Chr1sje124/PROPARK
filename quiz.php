@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-// Definieer de vragen en antwoorden
+// Definieer de vragen en antwoorden.
 $questions = array(
 	"question1" => "a",
 	"question2" => "a",
@@ -25,14 +25,14 @@ $questions = array(
 
 $score = 0;
 
-// Verwerk de antwoorden en bereken de score
+// Verwerk de antwoorden en bereken de score.
 foreach ($questions as $question => $answer) {
 	if (isset($_POST[$question]) && $_POST[$question] == $answer) {
 		$score += 5;
 	}
 }
 
-// Sla de score op in de database
+// Sla de score op in de database / Verbinden met de database.
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -56,7 +56,7 @@ $conn->close();
 // 	$email = $_POST["email"];
 // }
 
-// // Stuur de score via e-mail, als de gebruiker dat wil
+// // Stuur de score via e-mail, als de gebruiker dat wil.
 // if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 // 	echo "Het opgegeven e-mailadres is ongeldig.";
 //   } else {
@@ -69,7 +69,7 @@ $conn->close();
 // Toon de score aan de gebruiker
 include "nav.php";
 echo "<h1>Uw score is: " . $score . "</h1>";
-include "footer.php";
+include "footer.php"
 ?>
 </body>
 </html>

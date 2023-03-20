@@ -15,7 +15,7 @@
 
   <h1>Welkom bij de quiz!</h1>
 
-	<!--Vragen plus opties opzetten-->
+	<!--Vragen plus opties opzetten.-->
   <form action="quiz.php" method="post">
 		<p>1. Heb je moeite om je te concentreren?</p>
 		<input type="radio" name="question1" value="a"> Ja<br>
