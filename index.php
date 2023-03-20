@@ -28,9 +28,7 @@
     <h2>Doe hier nu een zelftest!</h2>
   </div>
 
-  <div class="container">
-    <iframe width="640" height="390" src="https://www.youtube.com/embed/_cEYVpsSTuE" title="Wat is ADHD?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </div>
+  <iframe width="640" height="390" src="https://www.youtube.com/embed/_cEYVpsSTuE" title="Wat is ADHD?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
   
   <?php include "footer.php" ?>
