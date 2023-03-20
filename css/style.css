@@ -195,39 +195,28 @@ footer > div > ul {
   list-style: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   footer {
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #395B64;
+    color: #fff;
   }
-}
-img {
-  max-width: 100%;
-}
-
-.container {
-  margin-left: 10%;
-  padding-left: 40%;
-  margin-top: 0;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 4em;
   }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  footer h3 {
+    margin: 0;
+    margin-left: 1rem;
   }
-}
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
+  footer > div > ul {
+    padding-left: 1em;
+    list-style: none;
   }
 }
 .Geschiedenis {
